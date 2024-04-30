@@ -1,0 +1,94 @@
+.header {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+.header {
+  background-color: #333;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("https://img.freepik.com/free-photo/blue-armchair-against-blue-wall-living-room-interior-elegant-interior-design-with-copy-space-ai-generative_123827-23719.jpg");
+  background-size: cover;
+  background-position: center;
+   /* Remove default padding */
+}
+.body-image {
+  width: 100%; /* Set image width to 100% to fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+.quote{
+  color: black;
+  text-align: center;
+}
+.Images ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 10px;
+  justify-content: center;
+}
+.Images ul li {
+  margin: 10px; /* Add spacing between images */
+}
+.Products{
+  background-color: aliceblue;
+}
+.Products ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 10px;
+  justify-content: center;
+
+}
+.Products ul li {
+  margin: 10px; /* Add spacing between images */
+  length:300;
+  width:400 ;
+
+}
+.head-1 {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 10px;
+  padding: 10px;
+}
+.social-icons {
+  list-style-type: none;
+  display: flex;
+ justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+}
+.social-icons li {
+  display: inline-block; 
+     margin-right: 10px; 
+}
+
+.social-icons li img {
+  width: 30px;
+  height: 30px; 
+}
